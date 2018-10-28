@@ -1,0 +1,6 @@
+#!/usr/exe/env ruby
+
+require_relative "../lib/richards_mega_lotto/drawing"
+
+drawing = RichardsMegaLotto::Drawing.new.draw
+puts drawing

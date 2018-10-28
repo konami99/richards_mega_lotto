@@ -1,7 +1,7 @@
 module RichardsMegaLotto
   class Drawing
     def draw
-      5.times.map { single_draw }
+      RichardsMegaLotto.configuration.drawing_count.times.map { single_draw }
     end
 
     private
