@@ -1,6 +1,7 @@
 require "richards_mega_lotto/version"
 require "richards_mega_lotto/drawing"
 require "richards_mega_lotto/configuration"
+require "richards_mega_lotto/railtie"
 
 begin
   require "pry"
