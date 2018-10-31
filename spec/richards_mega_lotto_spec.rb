@@ -12,7 +12,7 @@ RSpec.describe RichardsMegaLotto do
       RichardsMegaLotto.reset
       config = RichardsMegaLotto.configuration
 
-      expect(config.drawing_count)to eq 6
+      expect(config.drawing_count).to eq 6
     end
   end
 
