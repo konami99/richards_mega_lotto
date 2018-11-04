@@ -8,5 +8,9 @@ module MegaLotto
         include RichardsMegaLotto::Helper
       end
     end
+
+    rake_tasks do
+      load 'richards_mega_lotto/tasks/richards_mega_lotto.rake'
+    end
   end
 end
